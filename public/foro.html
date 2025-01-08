@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro</title>
+    <link rel="stylesheet" href="src/style-foro.css">
+</head>
+<body>
+    <header>
+        <h1>Foro</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="guias.html">Guías</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="foro.html">Foro</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="testimonios.html">Testimonios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Últimos Temas</h2>
+            <ul>
+                <li><a href="#">Tema 1</a></li>
+                <li><a href="#">Tema 2</a></li>
+                <li><a href="#">Tema 3</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Crear Nuevo Tema</h2>
+            <form id="newTopicForm">
+                <label for="topicTitle">Título:</label><br>
+                <input type="text" id="topicTitle" name="topicTitle" required><br>
+                <label for="topicContent">Contenido:</label><br>
+                <textarea id="topicContent" name="topicContent" required></textarea><br>
+                <input type="submit" value="Crear Tema">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Mi Web</p>
+    </footer>
+    <script src="src/index.js"></script>
+</body>
+</html>
